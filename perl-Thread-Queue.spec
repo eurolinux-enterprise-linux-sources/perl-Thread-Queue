@@ -1,6 +1,6 @@
 Name:           perl-Thread-Queue
 Version:        3.02
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Thread-safe queues
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -51,6 +51,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.02-2
+- Mass rebuild 2013-12-27
+
 * Fri Mar 01 2013 Petr Pisar <ppisar@redhat.com> - 3.02-1
 - 3.02 bump
 
